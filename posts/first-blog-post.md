@@ -6,7 +6,7 @@ snippet: I am excited about exploring the world of creative coding!
 
 Hello, world! Welcome everyone, to RMIT Creative Coding Specialisation!! 
 
-! [a small group of people creative coding on the street with their pets](/240306_first_post/background1.png)
+![a small group of people creative coding on the street with their pets](/240306_first_post/background1.png)
 
 # This is h1
 
