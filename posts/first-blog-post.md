@@ -40,11 +40,13 @@ Through the example above, I learned that the **for code** is used to set the se
 But when I ran the code, I got the result **Unexpected end of input**. This was my first time coding or writing code myself, so I was confused as to what to do when I saw results like this.
 
 ![for loop definition](/240306_first_post/for_loop.png)
+[Source: statement for the for code](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+
 Since this error occurred after I modified the for code, I thought that I needed to understand the **for code** in order to fix it.
 
   While looking at the statement for **for code**, I found the answer in the section *"followed by a statement (usually a block statement) to be executed in the loop"*.
 
-In my code where the error occurred, I used two for codes, but there was only one **curly bracket** corresponding to the for code.
+In my code where the error occurred, I used two for codes, but there was only one ***curly bracket*** corresponding to the for code.
 
 ![solved the problem](/240306_first_post/solve_problem.png)
 After fixing this, the code worked properly again!!!
