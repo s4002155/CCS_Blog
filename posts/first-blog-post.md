@@ -28,7 +28,7 @@ The code for the sketch created in class was created so that the scale of the sq
 However, to create a grid, I need squares with a fixed scale, so the first thing I modified was to change the scale of the squares to **70**.
 
 ![Referenced Resources](/240306_first_post/resource.png)
-[grid for loop
+[Source: grid for loop
 by cs4all](https://editor.p5js.org/cs4all/sketches/9ADXr9mSx)
 
 Then, to solve the second problem of the first attempt, which was that the distance between each row was not constant, I referred to an example of creating a grid by using the **for loop code**.
