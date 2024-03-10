@@ -13,9 +13,12 @@ _This is the final result of creating a grid by using a for loop._
 # How might I use for loops to create a grid?
 
 ![screenshot of existing code](/240306_first_post/existing_code.png)
-
+I started with the code from the sketch that I created in class to use the for loop.
 
 ![Adjusted the scale of the square](/240306_first_post/scale_adjustment.png)
+The code for the sketch created in class was created so that the scale of the square is adjusted according to frameCount.
+
+However, to create a grid, I need squares with a fixed scale, so the first thing I did was change the scale of the squares to **70**.
 
 ![Referenced Resources](/240306_first_post/resource.png)
 
