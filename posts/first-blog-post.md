@@ -52,18 +52,16 @@ In my code where the error occurred, I used two for codes, but there was only on
 After fixing this, the code worked properly again!!!
 
 ![The total number of squares has been corrected](/240306_first_post/total_squares.png)
-
+After solving the problem, I began the *grid creation* phase in earnest. First of all, I decided to create a 10x5 grid, so I modified **total_squares** to 50.
 
 ![Second problem occurred](/240306_first_post/problem2.png)
+And then, I modified the **Square** settings to arrange the 50 squares into 10 rows and 5 columns.
 
 ![Adjusted the size of the canvas](/240306_first_post/canvas_size.png)
+Due to the existing code where the canvas height was set to 200, the squares did not have enough space, so they appeared to be merged into a rectangle.
+
+Therefore, I modified the canvas size to **368** so that 50 squares are spaced at regular intervals to look like a grid.
 
 ![Result of running the code](/240306_first_post/result.png)
+A grid is a structure made up of a series of intersecting straight lines. However, the existing color had a strong square color, so it felt like the presence of a square was stronger than that of a straight line. So I finished by changing the **background colour** and **fill colour** to emphasize straight lines rather than squares.
 
-# This is h1
-
-## This is h2
-
-_underline_
-
-**bold**
