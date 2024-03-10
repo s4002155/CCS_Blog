@@ -7,6 +7,7 @@ disable_html_sanitization: true
 
 
 <iframe src="https://editor.p5js.org/s4002155/full/MG7Twp_rE" width="100%" height="410px"></iframe>
+
 _This is the final result of creating a grid by using a for loop._
 
 # How might I use for loops to create a grid?
