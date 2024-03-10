@@ -9,9 +9,25 @@ disable_html_sanitization: true
 
 <iframe src="https://editor.p5js.org/s4002155/full/MG7Twp_rE" width="100%" height="410px"></iframe>
 
-![a small group of people creative coding on the street with their pets](/240306_first_post/background1.png)
+![screenshot of existing code](/240306_first_post/existing_code.png)
 
-![a small group of people creative coding on the street with their pets](/240306_first_post/background1.png)
+![Adjusted the scale of the square](/240306_first_post/scale_adjustment.png)
+
+![Referenced Resources](/240306_first_post/resource.png)
+
+![rename to x and y](/240306_first_post/rename.png)
+
+![for loop definition](/240306_first_post/for_loop.png)
+
+![solved the problem](/240306_first_post/solve_problem.png)
+
+![The total number of squares has been corrected](/240306_first_post/total_squares.png)
+
+![Second problem occurred](/240306_first_post/problem2.png)
+
+![Adjusted the size of the canvas](/240306_first_post/canvas_size.png)
+
+![Result of running the code](/240306_first_post/result.png)
 
 # This is h1
 
