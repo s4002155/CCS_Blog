@@ -24,6 +24,8 @@ Among Rafaël Rozendaal's various works, I chose **frying flying .com**, created
 ![changed canvas setting](/240310_second_HW/canvas.png)
 
 ![reference1](/240310_second_HW/reference_wavy.png)
+[Source: 5_2_5 Noise Circle
+by eevirutanen](https://editor.p5js.org/eevirutanen/sketches/FuLEYWUu8)
 
 ![copy](/240310_second_HW/copy.png)
 
@@ -32,7 +34,7 @@ Among Rafaël Rozendaal's various works, I chose **frying flying .com**, created
 ![filling ellipse](/240310_second_HW/fill.png)
 
 ![reference of shadow](/240310_second_HW/shadow.png)
-
+[Source: Example of drawingContext](https://p5js.org/reference/#/p5/drawingContext)
 
 ![applied shadow](/240310_second_HW/apply_shadow.png)
 
@@ -41,16 +43,19 @@ Among Rafaël Rozendaal's various works, I chose **frying flying .com**, created
 ![yolk shape](/240310_second_HW/yolk_shape.png)
 
 ![push and pop](/240310_second_HW/push_pop.png)
+[Source: Description of push() and pop()](https://p5js.org/reference/#/p5/push)
 
 ![yolk appear](/240310_second_HW/yolk_appear.png)
 
 ![reference of the translate](/240310_second_HW/translate.png)
+[Source: Example of translate](https://p5js.org/reference/#/p5/translate)
 
 ![apply translate](/240310_second_HW/apply_trans.png)
 
 ![made a shape of yolk shiny](/240310_second_HW/yolk_shiny.png)
 
-![how to make curve shape](/240310_second_HW/curve_shape.png)
+![how to make curve shape](/240310_second_HW/curve_shape.png
+[Source: Example of curveVertex()](https://p5js.org/reference/#/p5/curveVertex)
 
 ![located yolk shiny](/240310_second_HW/yolk_shiny_locate.png)
 
