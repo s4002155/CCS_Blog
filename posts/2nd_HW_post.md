@@ -94,6 +94,9 @@ While looking for a way to express this, I found a similar example on the P5 ref
 
 By adjusting the value of the **translate** function by referring to the code in the example above, I was able to obtain egg yolk movement similar to Rafaël Rozendaal's work.
 
+![first attempt to express the shiny part of egg yolk](/240310_second_HW/square_shiny.png)
+
+
 ![how to make curve shape](/240310_second_HW/curve_shape.png)
 [Source: Example of curveVertex()](https://p5js.org/reference/#/p5/curveVertex)
 
