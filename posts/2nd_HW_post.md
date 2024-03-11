@@ -54,7 +54,7 @@ by eevirutanen](https://editor.p5js.org/eevirutanen/sketches/FuLEYWUu8)
 
 ![made a shape of yolk shiny](/240310_second_HW/yolk_shiny.png)
 
-![how to make curve shape](/240310_second_HW/curve_shape.png
+![how to make curve shape](/240310_second_HW/curve_shape.png)
 [Source: Example of curveVertex()](https://p5js.org/reference/#/p5/curveVertex)
 
 ![located yolk shiny](/240310_second_HW/yolk_shiny_locate.png)
