@@ -94,21 +94,41 @@ While looking for a way to express this, I found a similar example on the P5 ref
 
 By adjusting the value of the **translate** function by referring to the code in the example above, I was able to obtain egg yolk movement similar to Rafaël Rozendaal's work.
 
+<<<<<<< HEAD
+![first attemp to exprees shiny part of the egg yolk ](/240310_second_HW/square_shiny.png)
+
+The final step is to express the third part of the work, the shiny part of the egg yolk.
+
+To express this, I first used the **rect function** and **rotate function** to create a diagonally inclined rectangular shape.
+
+However, if you look at Rafaël Rozendaal's work, you can see that the shiny part of the egg yolk is not a straight rectangle, but a natural curve along the round part of the egg yolk.
+
+I thought it would be difficult to express this with just the rect function, so I decided to find another way.
+
+=======
 ![first attempt to express the shiny part of egg yolk](/240310_second_HW/square_shiny.png)
 
 
+>>>>>>> 49f3c48c0e85c67566715b30b4dfe28645ec0353
 ![how to make curve shape](/240310_second_HW/curve_shape.png)
 [Source: Example of curveVertex()](https://p5js.org/reference/#/p5/curveVertex)
 
-
+While looking for a way to create a curved shape for my second attempt at the shiny part of the egg yolk, I learned about the **curveVertex funtion**.
 
 ![made a shape of yolk shiny](/240310_second_HW/yolk_shiny.png)
 
+To use the **curveVertex funtion**, I need to know the x and y coordinates of the shape. There is also a way to enter them one by one, but this takes a long time and it is difficult to predict the exact value.
+
+Therefore, I used Adobe Illustrator's pen tool to create a shape similar to the shiny part of Rafaël Rozendaal's egg yolk and checked the x and y coordinate values of each anchor.
 
 ![located yolk shiny](/240310_second_HW/yolk_shiny_locate.png)
 
+The x and y coordinate values confirmed through the above process were applied to the **curveVertex funtion**.
+
 ![fill the colour of yolk](/240310_second_HW/fill_yolk.png)
+
+Lastly, I set the values of **fill funtion** and **noStroke funtion**, and applied the same **translate function** as the egg yolk so that the egg yolk and the shiny part of the egg yolk move together.
 
 ![final code](/240310_second_HW/final_code.png)
 
-
+Ultimately, this is what the final code I wrote to replicate Rafaël Rozendaal's work looks like.
