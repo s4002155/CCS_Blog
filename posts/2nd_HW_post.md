@@ -6,7 +6,8 @@ disable_html_sanitization: true
 ---
 
 
-<iframe src="https://editor.p5js.org/s4002155/full/B-xV42n_Y" width="100%" height="642px"></iframe>
+<iframe src="https://editor.p5js.org/s4002155/full/B-xV42n_Y" width="1000px" height="642px"></iframe>
+
 _This is the end result, what I copied Rafaël Rozendaal's work as closely as possible._
 
 # Working process
