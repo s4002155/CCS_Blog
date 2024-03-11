@@ -36,6 +36,8 @@ As you can see in the image above, this work can be divided into three parts.
 
 _The egg yolk and the shiny part of the egg yolk can be added by creating a single image, but I wanted to use only P5.js as much as possible to utilize coding, so I divided it into different parts._
 
+
+### Egg white part
 ![reference1](/240310_second_HW/reference_wavy.png)
 [Source: 5_2_5 Noise Circle
 by eevirutanen](https://editor.p5js.org/eevirutanen/sketches/FuLEYWUu8)
@@ -62,6 +64,8 @@ Referring to the example code of the **drawingContext** function, I applied the 
 
 In this way, the first part of the work, egg white coding, was completed.
 
+
+### Egg yolk part
 ![yolk colour](/240310_second_HW/yolk_colour.png)
 
 Secondly, I started making the second part of the piece, the egg yolk. First, to check the colours Rafaël Rozendaal used in his work, I used Adobe Photoshop's Color Picker to find the colour value of the egg yolk.
@@ -94,6 +98,8 @@ While looking for a way to express this, I found a similar example on the P5 ref
 
 By adjusting the value of the **translate** function by referring to the code in the example above, I was able to obtain egg yolk movement similar to Rafaël Rozendaal's work.
 
+
+### The part that expresses the sparkle of egg yolk
 ![first attemp to exprees shiny part of the egg yolk ](/240310_second_HW/square_shiny.png)
 
 The final step is to express the third part of the work, the shiny part of the egg yolk.
