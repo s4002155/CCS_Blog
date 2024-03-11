@@ -94,7 +94,6 @@ While looking for a way to express this, I found a similar example on the P5 ref
 
 By adjusting the value of the **translate** function by referring to the code in the example above, I was able to obtain egg yolk movement similar to Rafaël Rozendaal's work.
 
-<<<<<<< HEAD
 ![first attemp to exprees shiny part of the egg yolk ](/240310_second_HW/square_shiny.png)
 
 The final step is to express the third part of the work, the shiny part of the egg yolk.
@@ -105,11 +104,6 @@ However, if you look at Rafaël Rozendaal's work, you can see that the shiny par
 
 I thought it would be difficult to express this with just the rect function, so I decided to find another way.
 
-=======
-![first attempt to express the shiny part of egg yolk](/240310_second_HW/square_shiny.png)
-
-
->>>>>>> 49f3c48c0e85c67566715b30b4dfe28645ec0353
 ![how to make curve shape](/240310_second_HW/curve_shape.png)
 [Source: Example of curveVertex()](https://p5js.org/reference/#/p5/curveVertex)
 
