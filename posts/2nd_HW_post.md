@@ -129,6 +129,8 @@ The x and y coordinate values confirmed through the above process were applied t
 
 Lastly, I set the values of **fill funtion** and **noStroke funtion**, and applied the same **translate function** as the egg yolk so that the egg yolk and the shiny part of the egg yolk move together.
 
+
+### Outcome
 ![final code](/240310_second_HW/final_code.png)
 
 Ultimately, this is what the final code I wrote to replicate Rafaël Rozendaal's work looks like.
