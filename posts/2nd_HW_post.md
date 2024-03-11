@@ -10,7 +10,12 @@ disable_html_sanitization: true
 
 _This is the end result, what I copied Rafaël Rozendaal's work as closely as possible._
 
-# Working process
+# Which work by Rafaël Rozendaal did I choose?
+![FlyingFrying
+by Rafaël Rozendaal](/240310_second_HW/FlyingFrying.png)
+[Source: FlyingFrying
+by Rafaël Rozendaal](https://www.flyingfrying.com/)
 
-![screenshot of existing code](/240306_first_post/existing_code.png)
-I started with the code from the sketch that I created in class to use the for loop.
+Among Rafaël Rozendaal's various works, I chose **frying flying**, created in 2014. The main feature of this work is that it looks like fried eggs flying in the air.
+
+## Work Process
