@@ -5,8 +5,13 @@ snippet: Seconde Homework for S1
 disable_html_sanitization: true
 ---
 
+<iframe id="flyingfrying" src="https://editor.p5js.org/s4002155/full/B-xV42n_Y"></iframe>
 
-<iframe src="https://editor.p5js.org/s4002155/full/B-xV42n_Y" width="1000px" height="642px"></iframe>
+<script type="module">
+  const iframe = document.getElementById ('flyingfrying')
+  iframe.width = iframe.parentNod.clientWidth
+  iframe.height = iframe.parentNod.clientWidth + 42
+</script>
 
 _This is the end result, what I copied Rafaël Rozendaal's work as closely as possible._
 
