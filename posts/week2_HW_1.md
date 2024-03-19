@@ -6,7 +6,7 @@ disable_html_sanitization: true
 ---
 
 <div align="center">
-<iframe src="https://editor.p5js.org/s4002155/full/eU4uh5ShJ" width="100%x" height="100%"></iframe>
+<iframe src="https://editor.p5js.org/s4002155/full/eU4uh5ShJ" width="100%x" height="642px"></iframe>
 </div>
 
 
