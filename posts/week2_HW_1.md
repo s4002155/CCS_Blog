@@ -8,24 +8,24 @@ disable_html_sanitization: true
 <div align="center">
 <iframe src="https://editor.p5js.org/s4002155/full/eU4uh5ShJ" width="100%x" height="442px"></iframe>
 </div>
+_This is a play scene of Thomas Capogreco's recreated Rafaél Rozendaal's net art piece Falling Falling, by refactoring using class code._
 
-
-_This is the end result, what I copied Rafaël Rozendaal's work as closely as possible._
-
+# How to refactor (ie. re-organise) the code to use classes?
+## working process
 
 ![origin code](/240313_first_HW/origin.png)
 
 ![sketch.js](/240313_first_HW/sketch.png)
 
-![faller.js](/2240313_first_HW/faller.png)
+![faller.js](/240313_first_HW/faller.png)
 
 ![faller and sketch](/240313_first_HW/faller_and_sketch.png)
 
 ![class faller](/240313_first_HW/class_faller.png)
 
-![funtion draw](/240313_first_HW/funtion_draw.png)
+![function draw](/240313_first_HW/function_draw.png)
 
-![function etc](/240313_first_HW/function_etc.png)
+![function etc](/240313_first_HW/funtion_etc.png)
 
 ![re_sketch 1a](/240313_first_HW/re_sketch1a.png)
 
@@ -39,11 +39,16 @@ _This is the end result, what I copied Rafaël Rozendaal's work as closely as po
 
 ![re_sketch 4](/240313_first_HW/re_sketch4.png)
 
+
+## challenge moment
 ![problem of the colour](/240313_first_HW/problem_col.png)
 
 ![solve the problem of the colour](/240313_first_HW/solve_col.png)
 
 ![final sketch code](/240313_first_HW/sketch_final.png)
 
-![added comments](/2240313_first_HW/added_comments.png)
 
+## So what do these mean?
+![added comments](/240313_first_HW/added_comments.png)
+
+add code comments to help it be more understandable to humans
