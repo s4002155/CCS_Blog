@@ -11,7 +11,9 @@ disable_html_sanitization: true
 
 _This is a play scene of Thomas Capogreco's recreated Rafaél Rozendaal's net art piece Falling Falling, by refactoring using class code._
 
-# How to refactor (ie. re-organise) the code to use classes?
+# Which code do I use to refactor?
+This net art piece consists of repeating polygons that change color and fall. Therefore, it is effective to use class definitions that can utilize the convenience of objects all at once. Therefore, in the process below, we will reorganize slightly messy and difficult-to-understand code into 'class ()' code.
+
 ## working process
 
 ![origin code](/240313_first_HW/origin.png)
