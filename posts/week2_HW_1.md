@@ -17,16 +17,23 @@ This net art piece consists of repeating polygons that change color and fall. Th
 ## working process
 
 ![origin code](/240313_first_HW/origin.png)
+First of all, in order to use the 'class ()' code, I had to look at the existing code. If you look at the code written in **index.html**, you can see that there are **faller.js** and **sketch.js**.
 
 ![sketch.js](/240313_first_HW/sketch.png)
+At this time, an object is defined in **faller.js** through the 'class()' code, and repeated objects are loaded through the 'class()' code defined in **sketch.js**.
 
 ![faller.js](/240313_first_HW/faller.png)
-
-![faller and sketch](/240313_first_HW/faller_and_sketch.png)
+For this purpose, I first decided to define **_Faller_** using 'class()' code in **faller.js**.
 
 ![class faller](/240313_first_HW/class_faller.png)
+For a more convenient work environment, I placed **faller.js** and **sketch.js** on both sides so that I could see them at a glance, and then started coding in earnest.
+
+First, to define the code in **sketch.js** as a class, move all the code with faller.@@@ located in the function setup to 'class Faller {} in **faller.js** and then add the code I changed them to this.@@@.
 
 ![function draw](/240313_first_HW/function_draw.png)
+Then, I moved the code for the polygon into **faller.js**, using the draw function to draw the falling polygon.
+
+_* At this time, I initially used 'function draw()', but I later modified it after realizing that I had to use 'draw ()' code within the 'class()' code._
 
 ![function etc](/240313_first_HW/funtion_etc.png)
 
