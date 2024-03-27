@@ -36,3 +36,5 @@ Therefore, the first thing I did was create an on and off switch icon using Adob
 ![changeImage function](/240315_second_HW/changeImage.png)
 
 ![final code of on and off](/240315_second_HW/final_code.png)
+
+## Challenge
