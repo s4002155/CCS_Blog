@@ -6,7 +6,7 @@ disable_html_sanitization: true
 ---
 
 <div align="center">
-<iframe src="https://editor.p5js.org/s4002155/full/GOK_wIBRA" width="100%x" height="100%"></iframe>
+<iframe src="https://editor.p5js.org/s4002155/full/GOK_wIBRA" width="100%x" height="642px"></iframe>
 </div>
 
 _This is the end result, what I copied Rafaël Rozendaal's work as closely as possible._
