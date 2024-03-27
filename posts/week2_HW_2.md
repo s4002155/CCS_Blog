@@ -1,6 +1,6 @@
 ---
 title: Response to other Rafaël Rozendaal's work
-published_at: 2024-03-13
+published_at: 2024-03-15
 snippet: Second Homework for W2
 disable_html_sanitization: true
 ---
