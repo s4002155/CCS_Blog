@@ -36,29 +36,29 @@ Then, I moved the code for the polygon into **faller.js**, using the draw functi
 _* At this time, I initially used 'function draw()', but I later modified it after realizing that I had to use 'draw ()' code within the 'class()' code._
 
 ![function etc](/240313_first_HW/funtion_etc.png)
+Then, 'function find_point (start, end, phase)', 'function rand_col ()', and 'function rand_curve ()' were moved to **faller.js** as before.
 
 ![re_sketch 1a](/240313_first_HW/re_sketch1a.png)
+I deleted unnecessary code from **sketch.js**.
 
 ![e_sketch 1b](/240313_first_HW/re_sketch1b.png)
+I modified it to 'fallers.push (**new** Faller (bg))' to load the Faller defined with the 'class ()' code in **sketch.js**.
 
 ![re_sketch 2a](/240313_first_HW/re_sketch2a.png)
+Codes that became unnecessary through the 'fallers.push (**new** Faller (bg))' function were also deleted.
 
 ![re_sketch 2b](/240313_first_HW/re_sketch2b.png)
+This is the 'function setup()' of **sketch.js**, which has become cleaner than before through the 'class ()' code.
 
 ![re_sketch 3](/240313_first_HW/re_sketch3.png)
 
 ![re_sketch 4](/240313_first_HW/re_sketch4.png)
-
-
-## challenge moment
-![problem of the colour](/240313_first_HW/problem_col.png)
-
-![solve the problem of the colour](/240313_first_HW/solve_col.png)
-
-![final sketch code](/240313_first_HW/sketch_final.png)
+Lastly, I finished organizing it by deleting unnecessary code due to the 'class ()' code.
 
 
 ## So what do these mean?
-![added comments](/240313_first_HW/added_comments.png)
+![final sketch code](/240313_first_HW/sketch_final.png)
+This is the final look of the code.
 
-add code comments to help it be more understandable to humans
+![added comments](/240313_first_HW/added_comments.png)
+I added code comments to help it be more understandable to humans.
