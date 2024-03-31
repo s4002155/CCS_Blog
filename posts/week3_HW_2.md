@@ -9,12 +9,22 @@ disable_html_sanitization: true
 <div align="center">
 <iframe src="https://www.lookingatsomething.com/" width="100%" height="100%"></iframe>
 </div>
+[Source: looking at something
+by Rafaël Rozendaal](https://www.lookingatsomething.com/)
+
+I chose **looking at something .com**, created in 2013. The biggest feature of this work is that the weather changes depending on the movement of the mouse.
 
 ### What about the work makes it belong to the aesthetic category of "cute"?
+In the aesthetic category, “cute” is intimate and domestic. This creates a desire for intimacy and is non-threatening. From this perspective, this work falls into the aesthetic category of “cute.”
+
+Weather is one of the most intimate factors in our lives that affects us. The biggest feature of this work is the weather that changes depending on the position of the mouse, creating a rainy scene. Rafaël Rozendaal expressed rain through the repetition of small and simple shapes, which is one of the points that penetrates the concept of “cute” in the aesthetic category. Rain is formally simple, a small element and poses no threat to us.
+
 ### How does the artist employ effective complexity in the work to achieve its aesthetic result?
+Applying the concept of “effective complexity” within a cute aesthetic frame allows you to combine seemingly simple elements to create emotional resonance. In this respect, Rafaël Rozendaal used a combination of simple elements. Despite their individual simplicity, such as the repeating rain forms and backgrounds rendered only in color without unnecessary graphics, he used these elements together to create compositions that were greater than the sum of their parts. Additionally, the concept of effective complexity emphasizes the balance between order and randomness within a cute aesthetic frame. Although repeating rain formations may appear orderly and harmonious, the rain is generated randomly. This balance between order and randomness enhances the overall complexity of the cute aesthetic, making it visually appealing and emotionally resonant.
+
 
 # Document your creative process in responding to Rozendaal's work.
 
-### what attributes of the original work would you like to retain? What aspects would you like to improve / change?
-### in what way is your work in dialogue with the Rozendaal piece you have chosen?
-### document and discuss how the javascript techniques and design concepts you are using contribute to the aesthetic register of your response.
+### What attributes of the original work would you like to retain? What aspects would you like to improve / change?
+### In what way is your work in dialogue with the Rozendaal piece you have chosen?
+### Document and discuss how the javascript techniques and design concepts you are using contribute to the aesthetic register of your response.
