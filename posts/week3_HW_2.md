@@ -27,5 +27,14 @@ Applying the concept of “effective complexity” within a cute aesthetic frame
 # Document your creative process in responding to Rozendaal's work.
 
 ### What attributes of the original work would you like to retain? What aspects would you like to improve / change?
+In fact, the original work falls short in many aspects to be included in the aesthetic category of “cute.” That's why I'd like to improve the original work to fit it more into the aesthetic category of "cute." I will make improvements in the ways by using the characteristics sucg as small, round shapes, soft colors. The original work, however, makes good use of “effective complexity” within a cute aesthetic framework. I want to maintain the attributes of the original work that balance between order and randomness by repeating seemingly simple visual elements. Additionally, the combination of visually simple elements, despite their individual simplicity, creates a composition that when brought together is greater than the sum of its parts. The arrangement and interaction of these elements contributes to the overall complexity of "cute," so I'd like to keep this part as well.
+
 ### In what way is your work in dialogue with the Rozendaal piece you have chosen?
+The original piece, created by Rafaël Rozendaal, is designed as a scene viewed from the inside out. _(Like looking at the weather outside the window at home!)_ I tried to change perspective to communicate with Rafaël Rozendaal's work. The work will be structured as a design that looks from the outside in, rather than a scene looking out from the inside.
+
+When considering how to express this, I also considered the aesthetic category of “cute.” When I thought of an object that could express "cute" while also having the characteristic of looking from the outside in, *"snowglobe"* came to mind. The snowglobe is a design that allows you to see the world inside the glass from outside the glass. Additionally, like the rain in Rafaël Rozendaal's original work, the snowglobe constitutes a snowy environment.
+
+**Therefore, in my work, I will represent the snowglobe, providing a different perspective from Rafaël Rozendaal's work, but in a similar way, communicating with the original work.**
+
 ### Document and discuss how the javascript techniques and design concepts you are using contribute to the aesthetic register of your response.
+
