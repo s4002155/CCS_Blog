@@ -39,6 +39,9 @@ When considering how to express this, I also considered the aesthetic category o
 ## Document and discuss how the javascript techniques and design concepts you are using contribute to the aesthetic register of your response.
 
 ![created background image](/240321_second_HW/illust_bg.png)
+First of all, the biggest feature of the original work is that the weather changes depending on the position of mouseY. Rafaël Rozendaal expressed this through falling rain and a changing background. I also created a background using Adobe Illustrator to express the changing background.
+
+The most important theme of this work is that it should fall under “cute” in the aesthetic category. To express this, I decided to create a cute, simple graphic in the background image. Also, because I had to indicate that it was a snowglobe, I designed it around a cute, round, small snowman.
 
 <p align="center">
   <img alt="background1" src="/240321_second_HW/background1.png" width="45%">
@@ -46,7 +49,6 @@ When considering how to express this, I also considered the aesthetic category o
   <img alt="background2" src="/240321_second_HW/background2.png "background2" width="45%">
 </p>
 
-
-![background1](/240321_second_HW/background1.png "background1" =20%) ![background2](/240321_second_HW/background2.png "background2" =20%)
+These two images are background images I created. I wanted to express the movement of mouseY as 'shaking the snowglobe'. Therefore, the image on the left represents when the mouseY position is at the top of the canvas, that is, before shaking the snowglobe. The image on the right is what the snowglobe looks like after shaking it, so I added the appearance of piled snow and changed the background color because I wanted it to have more contrast. (when the mouseY position is at the bottom of the canvas)
 
 ![](/240321_second_HW/.png)
