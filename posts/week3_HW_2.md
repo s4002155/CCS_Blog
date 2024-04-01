@@ -40,6 +40,13 @@ When considering how to express this, I also considered the aesthetic category o
 
 ![created background image](/240321_second_HW/illust_bg.png)
 
-![background1](/240321_second_HW/background1.png "background1" =20%x) ![background2](/240321_second_HW/background2.png "background2" =20%x)
+<p align="center">
+  <img alt="background1" src="/240321_second_HW/background1.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="background2" src="/240321_second_HW/background2.png "background2" width="45%">
+</p>
+
+
+![background1](/240321_second_HW/background1.png "background1" =20%) ![background2](/240321_second_HW/background2.png "background2" =20%)
 
 ![](/240321_second_HW/.png)
