@@ -51,4 +51,40 @@ The most important theme of this work is that it should fall under “cute” in
 
 These two images are background images I created. I wanted to express the movement of mouseY as 'shaking the snowglobe'. Therefore, the image on the left represents when the mouseY position is at the top of the canvas, that is, before shaking the snowglobe. The image on the right is what the snowglobe looks like after shaking it, so I added the appearance of piled snow and changed the background color because I wanted it to have more contrast. (when the mouseY position is at the bottom of the canvas)
 
-![](/240321_second_HW/.png)
+![function setup](/240321_second_HW/setup.png)
+
+![upload background images](/240321_second_HW/loade_image.png)
+
+
+![](/240321_second_HW/class.png)
+
+
+![](/240321_second_HW/for_loop.png)
+
+
+![](/240321_second_HW/strange_snowflake.png)
+
+
+![](/240321_second_HW/fill.png)
+
+
+![](/240321_second_HW/alpha_image.png)
+
+
+![](/240321_second_HW/final_code1.png)
+
+
+![](/240321_second_HW/final_code2.png)
+
+<p align="center">
+  <img alt="1" src="/240321_second_HW/1.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="2" src="/240321_second_HW/2.png "2" width="45%">
+</p>
+<p align="center">
+  <img alt="3" src="/240321_second_HW/3.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="4" src="/240321_second_HW/4.png "4" width="45%">
+</p>
+
+
