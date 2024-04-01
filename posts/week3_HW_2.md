@@ -53,7 +53,7 @@ These two images are background images I created. I wanted to express the moveme
 
 ![function setup](/240321_second_HW/setup.png)
 
-![upload background images](/240321_second_HW/loade_image.png)
+![upload background images](/240321_second_HW/load_image.png)
 
 
 ![](/240321_second_HW/class.png)
@@ -71,20 +71,21 @@ These two images are background images I created. I wanted to express the moveme
 ![](/240321_second_HW/alpha_image.png)
 
 
-![](/240321_second_HW/final_code1.png)
+![](/240321_second_HW/finale_code1.png)
 
 
 ![](/240321_second_HW/final_code2.png)
 
+
 <p align="center">
-  <img alt="1" src="/240321_second_HW/1.png" width="45%">
+  <img alt="1" src="/240321_second_HW/1.png" width="55%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="2" src="/240321_second_HW/2.png "2" width="45%">
+  <img alt="2" src="/240321_second_HW/2.png "2" width="55%">
 </p>
 <p align="center">
-  <img alt="3" src="/240321_second_HW/3.png" width="45%">
+  <img alt="3" src="/240321_second_HW/3.png" width="55%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img alt="4" src="/240321_second_HW/4.png "4" width="45%">
+  <img alt="4" src="/240321_second_HW/4.png "4" width="55%">
 </p>
 
 
