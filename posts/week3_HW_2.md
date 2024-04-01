@@ -52,7 +52,7 @@ The most important theme of this work is that it should fall under “cute” in
 These two images are background images I created. I wanted to express the movement of mouseY as 'shaking the snowglobe'. Therefore, the image on the left represents when the mouseY position is at the top of the canvas, that is, before shaking the snowglobe. The image on the right is what the snowglobe looks like after shaking it, so I added the appearance of piled snow and changed the background color because I wanted it to have more contrast. (when the mouseY position is at the bottom of the canvas)
 
 ![function setup](/240321_second_HW/setup.png)
-After creating the background image, I started coding in earnest. To create a fullscreen work, I set the canvas size to **windoeWidth** and **windowHeight**.
+After creating the background image, I started coding in earnest. To create a fullscreen work, I set the canvas size to **windowWidth** and **windowHeight**.
 
 ![upload background images](/240321_second_HW/load_image.png)
 Then, the file created as the background images was loaded through the 'funtion preload()' code.
