@@ -88,5 +88,7 @@ These two images are background images I created. I wanted to express the moveme
 
 ### Final result
 <div align="center">
-<iframe src="https://editor.p5js.org/s4002155/full/BBVE2j8Il" width="100%" height="100%"></iframe>
+<iframe src="https://editor.p5js.org/s4002155/full/BBVE2j8Il" width="100%" height="542px"></iframe>
 </div>
+
+[Fullscreen version of my work](https://editor.p5js.org/s4002155/full/BBVE2j8Il)
