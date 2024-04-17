@@ -6,6 +6,7 @@ disable_html_sanitization: true
 ---
 
 <script src="/scripts/c2.min.js"></script>
+<script src="/scripts/p5.js"></script>
 
 <canvas id="c2"/>
 
