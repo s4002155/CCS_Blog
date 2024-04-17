@@ -12,6 +12,8 @@ disable_html_sanitization: true
 Code from [here](https://github.com/ren-yuan/c2.js/blob/main/examples/Delaunay.js)
 
 <script>
+//created by Ren Yuan
+
 const renderer = new c2.Renderer(document.getElementById('c2'));
 resize();
 
