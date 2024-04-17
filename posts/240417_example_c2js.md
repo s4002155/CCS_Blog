@@ -10,7 +10,7 @@ disable_html_sanitization: true
 <canvas id="c2"/>
 
 <script>
-const renderer = new c2.Renderer (document.getElementById ('c2_example'))
+const renderer = new c2.Renderer (document.getElementById ("c2"))
 resize ()
 
 renderer.background ('#cccccc')
