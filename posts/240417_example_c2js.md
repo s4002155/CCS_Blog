@@ -10,6 +10,8 @@ disable_html_sanitization: true
 
 <canvas id="c2"/>
 
+console.dir (p5)
+
 Code from [here](https://github.com/ren-yuan/c2.js/blob/main/examples/Delaunay.js)
 
 <script>
