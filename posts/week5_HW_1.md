@@ -1,7 +1,7 @@
 ---
 title: Code comments
 published_at: 2024-04-11
-snippet: week 5 homework
+snippet: week 5 homework 1
 disable_html_sanitization: true
 ---
 
