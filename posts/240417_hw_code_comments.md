@@ -1,6 +1,6 @@
 ---
 title: Code comments
-published_at: 2024-04-17
+published_at: 2024-04-11
 snippet: week 5 homework
 disable_html_sanitization: true
 ---
@@ -153,128 +153,175 @@ disable_html_sanitization: true
 <canvas id="pixel_sort"></canvas>
 
 <script type="module">
+
+   // Import the PixelSorter class from the pixel_sort.js file
    import { PixelSorter } from "/scripts/pixel_sort.js"
 
-   const cnv  = document.getElementById (`pixel_sort`)
-   cnv.width  = cnv.parentNode.scrollWidth
+   // Get the canvas element
+   const cnv = document.getElementById(`pixel_sort`)
+
+   // Set canvas dimensions to match its parent's width and maintain 16:9 aspect ratio
+   cnv.width = cnv.parentNode.scrollWidth
    cnv.height = cnv.width * 9 / 16   
 
-   const ctx = cnv.getContext (`2d`)
-   const sorter = new PixelSorter (ctx)
+   // Get 2D rendering context
+   const ctx = cnv.getContext(`2d`)
 
-   const img = new Image ()
+   // Instantiate a PixelSorter object with the rendering context
+   const sorter = new PixelSorter(ctx)
 
+   // Create a new image element
+   const img = new Image()
+
+   // Define actions upon image loading
    img.onload = () => {
+      // Adjust canvas height to maintain aspect ratio of the image
       cnv.height = cnv.width * (img.height / img.width)
-      ctx.drawImage (img, 0, 0, cnv.width, cnv.height)
-      sorter.init ()
-      draw_frame ()
+      
+      // Draw the image onto the canvas
+      ctx.drawImage(img, 0, 0, cnv.width, cnv.height)
+      
+      // Initialize the PixelSorter
+      sorter.init()
+      
+      // Begin animation loop
+      draw_frame()
    }
 
+   // Set the source of the image element
    img.src = `/240408/kornerpark.jpg`
 
+   // Counter to keep track of frame count
    let frame_count = 0
+
+   // Define the animation loop function
    const draw_frame = () => {
+      // Draw the original image onto the canvas
+      ctx.drawImage(img, 0, 0, cnv.width, cnv.height)
 
-      ctx.drawImage (img, 0, 0, cnv.width, cnv.height)
+      // Calculate the sine wave signature for animation
+      let sig = Math.cos(frame_count * 2 * Math.PI / 500)
 
-      let sig = Math.cos (frame_count * 2 * Math.PI / 500)
-
+      // Calculate the dimensions for pixel sorting based on the signature
       const mid = {
          x: cnv.width / 2,
          y: cnv.height / 2
       }
-
       const dim = {
-         x: Math.floor ((sig + 3) * (cnv.width / 6)) + 1,
-         y: Math.floor ((sig + 1) * (cnv.height / 6)) + 1
+         x: Math.floor((sig + 3) * (cnv.width / 6)) + 1,
+         y: Math.floor((sig + 1) * (cnv.height / 6)) + 1
       }
-
       const pos = {
-         x: Math.floor (mid.x - (dim.x / 2)),
-         y: Math.floor (mid.y - (dim.y / 2))
+         x: Math.floor(mid.x - (dim.x / 2)),
+         y: Math.floor(mid.y - (dim.y / 2))
       }
 
-      sorter.glitch (pos, dim)
+      // Apply pixel sorting effect
+      sorter.glitch(pos, dim)
 
+      // Increment frame count
       frame_count++
-      requestAnimationFrame (draw_frame)
+
+      // Request next animation frame
+      requestAnimationFrame(draw_frame)
    }
 
 </script>
+
 ```
 
 ```js
 // pixel_sort.js
 
+// Define the quicksort algorithm for sorting pixel data
 const quicksort = a => {
+   // Base case: if array has 1 or fewer elements, return it
    if (a.length <= 1) return a
 
+   // Choose the first element as the pivot
    let pivot = a[0]
    let left = []
    let right = []
 
+   // Partition the array into left and right sub-arrays based on pivot
    for (let i = 1; i < a.length; i++) {
-      if (a[i].br < pivot.br) left.push (a[i])
-      else right.push (a[i])
+      if (a[i].br < pivot.br) left.push(a[i])
+      else right.push(a[i])
    }
 
-   const sorted = [ ...quicksort (left), pivot, ...quicksort (right) ]
+   // Recursively sort left and right sub-arrays and concatenate them with pivot
+   const sorted = [...quicksort(left), pivot, ...quicksort(right)]
 
+   // Return the sorted array
    return sorted
 }
 
+// Define the PixelSorter class
 export class PixelSorter {
-   constructor (ctx) {
+   constructor(ctx) {
+      // Initialize with the canvas rendering context
       this.ctx = ctx
    }
 
-   init () {
+   // Initialize method to set up necessary data
+   init() {
+      // Get canvas dimensions and image data
       this.width = this.ctx.canvas.width
       this.height = this.ctx.canvas.height
-      this.img_data = this.ctx.getImageData (0, 0, this.width, this.height).data
+      this.img_data = this.ctx.getImageData(0, 0, this.width, this.height).data
    }
 
-
-   glitch (pos, dim) {
+   // Method to apply pixel sorting effect
+   glitch(pos, dim) {
+      // Helper function to find index of a pixel in image data array
       const find_i = c => ((c.y * this.ctx.canvas.width) + c.x) * 4 
 
+      // Iterate over the specified dimensions
       for (let x_off = 0; x_off < dim.x; x_off++) {
+         // Array to store positions of pixels in the current column
          const positions = []
 
+         // Populate positions array with pixel indices
          for (let y_pos = pos.y; y_pos < pos.y + dim.y; y_pos++) {
-            positions.push (find_i ({ x: pos.x + x_off, y: y_pos }))
+            positions.push(find_i({ x: pos.x + x_off, y: y_pos }))
          }
 
+         // Array to store unsorted pixel data
          const unsorted = []
 
-         positions.forEach (p => {
+         // Populate unsorted array with pixel data
+         positions.forEach(p => {
             const r = this.img_data[p]
             const g = this.img_data[p + 1]
             const b = this.img_data[p + 2]
             const a = this.img_data[p + 3]
             const br = r * g * b
-            unsorted.push ({ r, g, b, a, br })
+            unsorted.push({ r, g, b, a, br })
          })
 
-         const sorted = quicksort (unsorted).reverse ()
+         // Sort the pixel data using quicksort algorithm
+         const sorted = quicksort(unsorted).reverse()
 
+         // Array to store sorted pixel data as RGBA values
          let rgba = []
 
-         sorted.forEach (e => {
-            rgba.push (e.r)
-            rgba.push (e.g)
-            rgba.push (e.b)
-            rgba.push (e.a)
+         // Populate rgba array with sorted pixel data
+         sorted.forEach(e => {
+            rgba.push(e.r)
+            rgba.push(e.g)
+            rgba.push(e.b)
+            rgba.push(e.a)
          })
 
-         rgba = new Uint8ClampedArray (rgba)
+         // Convert rgba array to Uint8ClampedArray
+         rgba = new Uint8ClampedArray(rgba)
 
-         const new_data = this.ctx.createImageData (1, dim.y)
-         
-         new_data.data.set (rgba)
+         // Create new ImageData object with sorted pixel data
+         const new_data = this.ctx.createImageData(1, dim.y)
+         new_data.data.set(rgba)
 
-         this.ctx.putImageData (new_data, pos.x + x_off, pos.y)
+         // Put the sorted pixel data onto the canvas
+         this.ctx.putImageData(new_data, pos.x + x_off, pos.y)
       }
    }
 }
