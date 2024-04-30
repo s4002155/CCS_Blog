@@ -9,92 +9,81 @@ disable_html_sanitization: true
 
 <script type='module'>
 
-    const cnv = document.getElementById ('fractal_tree_1')
+    <canvas id='fractal_tree_0'></canvas>
+
+<script type='module'>
+
+    // get and format canvas
+    const cnv = document.getElementById ('fractal_tree_0')
     cnv.width = cnv.parentNode.scrollWidth
     cnv.height = cnv.width * 9 / 16
-    cnv.style.backgroundColor = `deeppink`
 
+    // get canvas context
     const ctx = cnv.getContext ('2d')
 
-    // define a function to return a random value
-    // between a minimum and maximum
-    function rand_between (min, max) {
-        const dif = max - min
-        const off = Math.random () * dif
-        return  min + off
-    }
+    // this is the recursive function that will draw the tree
+    // it accepts three arguments:
+    // base: vector describing the starting position
+    // stem: vector describing the new line
+    // generation: integer limiting the number of recursions
+    function tree (base, stem, generation) {
 
-    // this function has been modified to recieve 
-    // an options object housing angle and mult data
-    function tree (base, stem, generation, options) {
+        // start with the base position
+        // we want to tranform it, so we make a copy
         const end = base.clone ()
+
+        // add the stem to the start position
         end.add (stem)
 
+        // draw the line from the start point
+        // to the end point
         ctx.beginPath ()
         ctx.moveTo (base.x, base.y)
         ctx.lineTo (end.x, end.y)
         ctx.stroke ()
 
-
+        // if generations is still positive
         if (generation > 0) {
+
+            // clone the stem
             const L_stem = stem.clone ()
 
-            // use the data in the options object
-            // for the left angle
-            L_stem.rotate (options.angle.l)
+            // rotate it anti-clockwise
+            L_stem.rotate (-TAU / 7)
 
-            // for the left multiplier
-            L_stem.mult (options.mult.l)
+            // reduce the length
+            L_stem.mult (0.6)
 
+            // clone the stem again
             const R_stem = stem.clone ()
 
-            // for the right angle
-            R_stem.rotate (options.angle.r)
+            // rotate this one clockwise
+            R_stem.rotate (TAU / 7)
 
-            // and for the right multiplier
-            R_stem.mult (options.mult.r)
+            // reduce its length
+            R_stem.mult (0.6)
 
+            // decrease generation by 1
             const next_gen = generation - 1
 
-            // pass the options object
-            // on to the next generation
-            tree (end, L_stem, next_gen, options)
-            tree (end, R_stem, next_gen, options)
+            // recursively call tree twice, 
+            // with end as the new base
+            // L_stem & R_stem as the new stems
+            // and next_gen as the new generation
+            tree (end, L_stem, next_gen)
+            tree (end, R_stem, next_gen)
         }
     }
 
+    // new vector defining the starting point of our tree
     const seed = new Vector (cnv.width / 2, cnv.height)
+
+    // new vector defining the first stem
+    // ie. 150 pixels straight up
     const shoot = new Vector (0, -150)
 
-    // function for a new tree
-    function new_tree () {
-
-        // clear the canvas
-        ctx.fillStyle = `white`
-        ctx.fillRect (0, 0, cnv.width, cnv.height)
-
-        // create an options object
-        // using object literal notation
-        const options = {
-            mult : {
-                l : rand_between (0.5, 0.8),
-                r : rand_between (0.5, 0.8),
-            },
-
-            angle : {
-                l : rand_between (TAU / 12, TAU / 4) * -1,
-                r : rand_between (TAU / 12, TAU / 4),
-            }
-        }
-
-        // grow a tree using the options generated
-        tree (seed, shoot, 8, options)
-    }
-
-    // assign the new_tree function to the 
-    // .onclick property of the canvas
-    cnv.onclick = new_tree
-
-    // make a tree
-    new_tree ()
+    // pass seed in as the base argument
+    // shoot as the stem argument
+    // and 7, denoting that we want 7 recursions
+    tree (seed, shoot, 7)
 </script>
