@@ -8,9 +8,11 @@ disable_html_sanitization: true
 <canvas id='fractal_tree_1'></canvas>
 
 <script type='module'>
+
     const cnv = document.getElementById ('fractal_tree_1')
     cnv.width = cnv.parentNode.scrollWidth
     cnv.height = cnv.width * 9 / 16
+    cnv.style.backgroundColor = `deeppink`
 
     const ctx = cnv.getContext ('2d')
 
@@ -61,8 +63,8 @@ disable_html_sanitization: true
         }
     }
 
-    // const seed = new Vector (cnv.width / 2, cnv.height)
-    // const shoot = new Vector (0, -150)
+    const seed = new Vector (cnv.width / 2, cnv.height)
+    const shoot = new Vector (0, -150)
 
     // function for a new tree
     function new_tree () {
