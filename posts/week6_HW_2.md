@@ -1,6 +1,6 @@
 ---
-title: Create 
-published_at: 2024-03-28
+title: Example three.js
+published_at: 2024-04-18
 snippet: week4 homework
 disable_html_sanitization: true
 ---
