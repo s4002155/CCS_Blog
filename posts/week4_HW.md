@@ -5,6 +5,8 @@ snippet: week4 homework
 disable_html_sanitization: true
 ---
 
+<canvas id='fractal_tree_1'></canvas>
+
 const TAU = Math.PI * 2
 
 class Vector {
@@ -57,8 +59,6 @@ function vector_from_angle (angle, magnitude) {
     const y = magnitude * Math.sin (angle)
     return new Vector (x, y)
 }
-
-<canvas id='fractal_tree_1'></canvas>
 
 <script type='module'>
     const cnv = document.getElementById ('fractal_tree_1')
