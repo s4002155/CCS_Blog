@@ -1,7 +1,7 @@
 ---
 title: Example c2.js
 published_at: 2024-04-17
-snippet: example c2.js
+snippet: First Homework for W6
 disable_html_sanitization: true
 ---
 
