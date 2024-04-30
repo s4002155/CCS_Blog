@@ -12,7 +12,6 @@ disable_html_sanitization: true
     const cnv = document.getElementById ('fractal_tree_1')
     cnv.width = cnv.parentNode.scrollWidth
     cnv.height = cnv.width * 9 / 16
-    cnv.style.backgroundColor = `deeppink`
 
     const ctx = cnv.getContext ('2d')
 
