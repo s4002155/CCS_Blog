@@ -228,7 +228,7 @@ Code from [here](https://codepen.io/prisoner849/pen/ExpLBEO)
     scene.add(particles);
 
 renderer.setAnimationLoop((_) => {
-  gu.time.value = t / 1000;
+  gu.time.value = t;
   controls.update();
   renderer.render(scene, camera);
 });
