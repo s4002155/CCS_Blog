@@ -108,9 +108,8 @@ function resize() {
 }
 </script>
 
-### code
 
-```html
+```
 <script src="/scripts/c2.min.js"></script>
 <script src="/scripts/p5.js"></script>
 
