@@ -150,3 +150,101 @@ function vector_from_angle (angle, magnitude) {
     // make a tree
     new_tree ()
 </script>
+
+## Create a fractal using recursion
+
+```
+<canvas id='fractal_tree'></canvas>
+
+<script type='module'>
+    const cnv = document.getElementById ('fractal_tree')
+    cnv.width = cnv.parentNode.scrollWidth
+    cnv.height = cnv.width * 9 / 16
+    const ctx = cnv.getContext ('2d')
+
+```
+
+```
+<canvas id='fractal_tree'></canvas>
+
+<script type='module'>
+    const cnv = document.getElementById ('fractal_tree')
+    cnv.width = cnv.parentNode.scrollWidth
+    cnv.height = cnv.width * 9 / 16
+    const ctx = cnv.getContext ('2d')
+
+    function tree (base, stem, generation) {
+
+    }
+
+```
+
+<canvas id="fractal_tree_canvas"></canvas>
+
+<script>
+    // Get the canvas element and its context
+    const canvas = document.getElementById('fractal_tree_canvas');
+    const ctx = canvas.getContext('2d');
+
+    // Set canvas dimensions
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    // Define parameters for the fractal tree
+    const startX = canvas.width / 2;
+    const startY = canvas.height;
+    const trunkLength = 150;
+    const trunkWidth = 10;
+    const branchAngle = Math.PI / 4;
+    const branchLengthRatio = 0.7;
+    const branchWidthRatio = 0.7;
+    const maxDepth = 6;
+
+    // Function to draw a branch
+    function drawBranch(x, y, length, angle, width, depth) {
+        if (depth === 0) return;
+
+        // Calculate the endpoint of the branch
+        const endX = x + Math.cos(angle) * length;
+        const endY = y - Math.sin(angle) * length;
+
+        // Draw the branch
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(endX, endY);
+        ctx.lineWidth = width;
+        ctx.strokeStyle = '#663300'; // Brown color
+        ctx.stroke();
+
+        // Recursively draw the left and right branches
+        drawBranch(endX, endY, length * branchLengthRatio, angle - branchAngle, width * branchWidthRatio, depth - 1);
+        drawBranch(endX, endY, length * branchLengthRatio, angle + branchAngle, width * branchWidthRatio, depth - 1);
+    }
+
+    // Draw the fractal tree
+    function drawTree() {
+        // Clear the canvas
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+        // Draw the trunk
+        ctx.beginPath();
+        ctx.moveTo(startX - trunkWidth / 2, startY);
+        ctx.lineTo(startX + trunkWidth / 2, startY);
+        ctx.lineWidth = trunkWidth;
+        ctx.strokeStyle = '#663300'; // Brown color
+        ctx.stroke();
+
+        // Draw the branches recursively
+        drawBranch(startX, startY - trunkLength, trunkLength * branchLengthRatio, -Math.PI / 2, trunkWidth * branchWidthRatio, maxDepth);
+    }
+
+    // Redraw the tree when the window is resized
+    window.addEventListener('resize', function () {
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        drawTree();
+    });
+
+    // Draw the initial tree
+    drawTree();
+</script>
