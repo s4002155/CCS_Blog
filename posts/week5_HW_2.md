@@ -6,5 +6,5 @@ disable_html_sanitization: true
 ---
 
 <div align="center">
-<iframe src="https://s4002155-blank-net-a-59.deno.dev/" width="100%" height="100%"></iframe>
+<iframe src="https://s4002155-blank-net-a-59.deno.dev/" width="300px" height="400px"></iframe>
 </div>
