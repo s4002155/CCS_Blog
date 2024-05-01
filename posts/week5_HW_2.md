@@ -302,5 +302,23 @@ const draw = i => {
 
 ## Discussion based on reading
 ### Which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
+In the three key aesthetic categories introduced in Sianne Ngai's book "Our Aesthetic Category: Zany, Cute, Interesting", my self-portrait (and glitch more generally) falls into the "Zany" category.
+
+‘Zany’ refers to the absurd, chaotic, and unpredictable aspects of aesthetics. It encompasses elements that are whimsical, eccentric, or bizarre, often defying conventional expectations. From this perspective, glitches are chaotic, unpredictable, and random. That's why 'Zany', which  provoke laughter or amusement through their unconventional and unexpected nature, contains glitches.
 
 ### Does glitch increase or decrease effective complexity, and why?
+From the perspective of "effective complexity", I think that the impact of a defect on complexity may depend on how the defect is perceived within a particular aesthetic frame.
+
+First of all, from a general point of view, glitches can in some cases introduce unexpected and unpredictable elements into a system, increasing its effective complexity. Glitches create irregularities or deviations that disrupt the normal order or functioning of a system, adding to its complexity. These unexpected interruptions can increase effective complexity by prompting viewers to re-evaluate their understanding of the system and discover hidden patterns or relationships.
+
+On the other hand, glitches can also reduce effective complexity by introducing excessive randomness or disorder into the system. If glitches make a system difficult or incomprehensible, they can reduce the ability to accurately describe or understand the structure or behavior of the system. In these cases, glitches can reduce the effective complexity of the system by obscuring underlying patterns or relationships and reducing overall consistency.
+
+However, I believe that the impact of glitches on effective complexity may depend on their context and interpretation within a particular aesthetic frame. That's why, within the "Zany" category, I think glitches generally increase effective complexity.
+
+First, glitches inherently introduce unpredictability and chaos into the system. This disrupts the expected order and functionality, adding complexity that wasn't there in the first place. This unpredictability increases effective complexity by forcing viewers to re-evaluate their understanding of the system.
+
+Second, glitches often result in unexpected interactions between elements within a system. These interactions can create new patterns, behaviors, or visual effects that exceed existing expectations. The emergence of unexpected interactions adds depth and richness to the system, enhancing its overall complexity.
+
+Finally, glitches invite viewers to engage with ambiguity and uncertainty. This disrupts existing ways of interpreting and perceiving, encouraging viewers to explore alternative ways of understanding the system. This engagement with ambiguity fosters curiosity and wonder, further increasing the effective complexity of flawed systems.
+
+In other words, glitches within the “Zany” category increase effective complexity by introducing unpredictability, creating unexpected interactions, and leading viewers to ambiguity.
