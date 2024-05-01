@@ -101,7 +101,7 @@ Firstly, I used Canvas API that provides a means for drawing graphics via JavaSc
 
 *To understand about the Canvas API, I refereced [this](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) page.*
 
-```
+```html
 <canvas id='fractal_tree'></canvas>
 
 <script type='module'>
@@ -127,7 +127,7 @@ When I look through, I realized that in order to create a fractal tree, I had to
 
 So I using ```function vectorFromAngle()``` to create  a vector from angle and magnitude.
 
-```
+```h
 // Function to generate a fractal tree
     function tree(base, stem, generation, options) {
 
@@ -177,7 +177,7 @@ I used ```function tree()``` code to generate a fractal tree. I then tried to dr
 *Detailed explanation is provided in the code description.*
 
 
-```
+```h
  // Function to generate a new tree
     function newTree() {
 
@@ -225,7 +225,7 @@ And then, I generated code so that a new fractal tree would be randomly created 
 
 ## Final code
 
-```
+```h
 <canvas id='fractal_tree'></canvas>
 
 <script type='module'>

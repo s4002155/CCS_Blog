@@ -54,7 +54,8 @@ This is the existing code in script.js.
 
 
 ## Glitch code in script.js
-```
+
+```h
 // Set margin and overflow properties of the body to 0 and 'hidden' respectively
 document.body.style.margin = 0;
 document.body.style.overflow = 'hidden';
@@ -75,7 +76,7 @@ window.onresize = () => {
 ```
 First, I started by creating a canvas.
 
-```
+```h
 // Set margin and overflow properties of the body to 0 and 'hidden' respectively
 document.body.style.margin = 0;
 document.body.style.overflow = 'hidden';
@@ -117,7 +118,7 @@ console.dir(img);
 ```
 In order to create code that causes glitches in the image, I first wrote code to load the image.
 
-```
+```h
 document.body.style.margin   = 0;
 document.body.style.overflow = 'hidden';
 
@@ -157,7 +158,7 @@ console.dir(img);
 ```
 Since I only wrote code to load the image, the image will not be displayed on the screen. To draw the image on the canvas, I will display it on the screen through ```const draw_image = () => {```.
 
-```
+```h
 const rand_int = max => Math.floor(Math.random() * max);
 
 const glitchify = (data, chunk_max, repeats) => {
@@ -199,7 +200,7 @@ const draw_frame = () => {
 ```
 Then I started writing glitch code in earnest. *Code referenced from ['Glitch' blog post](https://blog.science.family/240405_glitch).*
 
-```
+```h
 // Function to draw an image on the canvas with original dimensions
 const draw = i => {
     // Calculate the scaling factor for the image
@@ -214,7 +215,7 @@ const draw = i => {
 Because the size of the canvas was set to the screen size, the image size was adjusted to the screen size, causing a problem where only part of the image was visible. To solve this, I ended up writing code to draw the image on the canvas at its original size.
 
 ## Final code
-```script.js
+```js
 document.body.style.margin   = 0;
 document.body.style.overflow = 'hidden';
 
