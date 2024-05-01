@@ -407,3 +407,12 @@ function resize() {
 ```
 
 ## Why does combining ideas / libraries seem to make things more aesthetically chaotic?
+Combining different ideas or libraries, such as ASCII art and the c2.js library, can contribute to increased aesthetic chaos, aligning with the principles of effective complexity in several ways:
+
+First, by integrating disparate elements like ASCII art, the resulting aesthetic becomes less predictable and more chaotic. Viewers may not anticipate the combination of these elements, leading to a sense of surprise and unpredictability, which adds to the overall complexity of the aesthetic experience.
+
+Second, the interaction between ASCII art and the geometry visualizations creates unexpected juxtapositions and contrasts. ASCII art typically conveys images through characters, while geometry visualizations often involve abstract shapes and patterns. The unexpected interaction between these contrasting elements generates novel visual effects and interpretations, enhancing the complexity of the aesthetic experience.
+
+Lastyly, the chaotic nature of combining ASCII art and geometry encourages engagement with ambiguity and uncertainty. Viewers may find themselves grappling with the conflicting visual cues and interpretations presented by the aesthetic, leading to a deeper exploration of its underlying complexity. This engagement with ambiguity fosters curiosity and intrigue, further enriching the aesthetic experience.
+
+Overall, combining ideas or libraries increases aesthetic chaos by introducing unpredictability, creating unexpected interactions, and engaging viewers with ambiguity, all of which align with the principles of effective complexity.
