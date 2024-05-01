@@ -205,7 +205,7 @@ Code from [here](https://codepen.io/prisoner849/pen/ExpLBEO)
    div.height = div.width * 9 / 16
 
    let scene = new THREE.Scene()
-   scene.background = new THREE.Color ("marron")
+   scene.background = new THREE.Color ("maroon")
    let camera = new THREE.PerspectiveCamera (60, 16 / 9, 1, 1000)
    camera.position.set (0, 5, 10)
    let renderer = new THREE.WebGLRenderer ({ antialias: true })
