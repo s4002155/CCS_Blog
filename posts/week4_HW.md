@@ -99,8 +99,7 @@ disable_html_sanitization: true
 ```
 Firstly, I used Canvas API that provides a means for drawing graphics via JavaScript and the HTML element. So I started with ```document.getElementById()``` to get a reference to the canvas element and set its dimensions.
 
-*To understand about the Canvas API, I refereced this page.*
-[Source: Canvas APT](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
+*To understand about the Canvas API, I refereced [this](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API) page.*
 
 ```
 <canvas id='fractal_tree'></canvas>
@@ -122,8 +121,7 @@ Firstly, I used Canvas API that provides a means for drawing graphics via JavaSc
     const ctx = cnv.getContext ('2d')
 
 ```
-*To understand how to make fractal tree by using recursion, I referenced the 'Recurtion' blog post.*
-[Source: Recursion](https://blog.science.family/240321_recursion)
+*To understand how to make fractal tree by using recursion, I referenced the ['Recurtion' blog post](https://blog.science.family/240321_recursion)*
 
 When I look through, I realized that in order to create a fractal tree, I had to use 'vectors'.
 
