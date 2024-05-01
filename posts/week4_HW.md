@@ -97,7 +97,7 @@ disable_html_sanitization: true
     const ctx = cnv.getContext ('2d')
 
 ```
-Firstly, I used Canvas API that provides a means for drawing graphics via JavaScript and the HTML element. So I started with ```document.getElementById()``` to get a reference to the <canvas> element and set its dimensions.
+Firstly, I used Canvas API that provides a means for drawing graphics via JavaScript and the HTML element. So I started with ```document.getElementById()``` to get a reference to the canvas element and set its dimensions.
 
 *To understand about the Canvas API, I refereced this page.*
 [Source: Canvas APT](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API)
