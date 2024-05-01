@@ -10,7 +10,7 @@ Code from [here](https://github.com/ren-yuan/c2.js/blob/main/examples/Delaunay.j
 <script src="/scripts/c2.min.js"></script>
 <script src="/scripts/p5.js"></script>
 
-<canvas id="c2"/>
+<canvas id="c2"></canvas>
 
 console.dir (p5)
 
@@ -113,7 +113,7 @@ function resize() {
 <script src="/scripts/c2.min.js"></script>
 <script src="/scripts/p5.js"></script>
 
-<canvas id="c2"/>
+<canvas id="c2"><//canvas>
 
 console.dir (p5)
 
