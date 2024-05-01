@@ -121,7 +121,7 @@ Firstly, I used Canvas API that provides a means for drawing graphics via JavaSc
     const ctx = cnv.getContext ('2d')
 
 ```
-*To understand how to make fractal tree by using recursion, I referenced the ['Recurtion' blog post](https://blog.science.family/240321_recursion)*
+*To understand how to make fractal tree by using recursion, I referenced the ['Recurtion' blog post](https://blog.science.family/240321_recursion).*
 
 When I look through, I realized that in order to create a fractal tree, I had to use 'vectors'.
 
