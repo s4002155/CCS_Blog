@@ -299,3 +299,8 @@ const draw = i => {
    ctx.drawImage(i, offsetX, offsetY, i.width * scale, i.height * scale);
 };
 ```
+
+## Discussion based on reading
+### Which of Ngai's aesthetic categories does your self-portrait (and glitch more generally) belong to, and why?
+
+### Does glitch increase or decrease effective complexity, and why?
