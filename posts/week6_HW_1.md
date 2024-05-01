@@ -109,6 +109,7 @@ function resize() {
 </script>
 
 ```
+
 <script src="/scripts/c2.min.js"></script>
 <script src="/scripts/p5.js"></script>
 
@@ -207,4 +208,6 @@ function resize() {
     renderer.size(parent.clientWidth, parent.clientWidth / 16 * 9);
 }
 </script>
+
 ```
+rwrwad
