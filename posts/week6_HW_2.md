@@ -233,6 +233,8 @@ Code from [here](https://codepen.io/prisoner849/pen/ExpLBEO)
    });
 </script>
 
+### CODE
+
 ```html
 <div id="three_container"></div>
 
