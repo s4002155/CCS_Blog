@@ -109,8 +109,7 @@ function resize() {
 </script>
 
 
-dfsefe
-```
+```html
 <script src="/scripts/c2.min.js"></script>
 <script src="/scripts/p5.js"></script>
 
