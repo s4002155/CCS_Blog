@@ -323,3 +323,4 @@ Second, glitches often result in unexpected interactions between elements within
 Finally, glitches invite viewers to engage with ambiguity and uncertainty. This disrupts existing ways of interpreting and perceiving, encouraging viewers to explore alternative ways of understanding the system. This engagement with ambiguity fosters curiosity and wonder, further increasing the effective complexity of flawed systems.
 
 In other words, glitches within the “Zany” category increase effective complexity by introducing unpredictability, creating unexpected interactions, and leading viewers to ambiguity.
+>>>>>>> ed7d1702ffd36a1b00af10ca18f8220731cbc8f3
