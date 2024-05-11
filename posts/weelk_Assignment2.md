@@ -512,7 +512,7 @@ const ctx2 = secondCanvas.getContext('2d');
 I wanted to apply this example on top of the artwork I created by referring to the c2.js example, so I created two separate canvases, and placed the second canvas on top of the first canvas to create a layer effect.
 
 <p align="center">
-  <img alt="created 404 icon" src="/240504_Assignment2/create.png" width="45%">
+  <img alt="created 404 icon" src="/240504_Assignment2/create.png" width="48%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="generate image to ascii" src="/240504_Assignment2/ascii.png "background2" width="45%">
 </p>
