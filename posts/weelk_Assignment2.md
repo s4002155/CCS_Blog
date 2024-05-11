@@ -24,6 +24,8 @@ disable_html_sanitization: true
 </p>
 
 <aside>
+<p>
 
 [NATO by Kerry Mitchell](https://www.kerrymitchellart.com/gallery36/nato.html)
+</p>
 </aside>
