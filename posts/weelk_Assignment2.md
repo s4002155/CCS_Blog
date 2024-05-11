@@ -305,7 +305,7 @@ function onMouseMove(event) {
 To further add to the confusion, I added a move event. Through this move event, more rectangles are randomly created each time the mouse is moved.
 
 
-```
+```js
 // Second canvas code
 // TAU is nicer than PI for trig
 const TAU = Math.PI * 2;
@@ -429,7 +429,7 @@ function draw_frame() {
 ```
 _* To add more zany and chaotic aesthetic, I referred to the [Pointer Interaction example](https://github.com/capogreco/interaction_example). In this example, the rectangle created moves chaotically with each mouse click. Not only can I get more confusing results, but I can also add zany elements through the graphics generated when you click the mouse._
 
-```
+```js
 class Vector {
    constructor (x, y) {
       this.x = x
@@ -484,4 +484,36 @@ function vector_from_angle (angle, magnitude) {
 }
 ```
 First of all, to refer to this example, a vector must be defined using class code, so 'vector.js' was used.
+
+```js
+// Second canvas code
+// TAU is nicer than PI for trig
+const TAU = Math.PI * 2;
+
+// get canvas element & assign to 'cnv'
+const secondCanvas = document.getElementById("secondCanvas");
+
+// Define function for resizing canvas
+function resize_canvas() {
+    // Resize canvas to = viewport
+    secondCanvas.width = innerWidth;
+    secondCanvas.height = innerHeight;
+}
+
+// Assign to .onresize property of window
+window.onresize = resize_canvas;
+
+// Initialise canvas size
+resize_canvas();
+
+// Get canvas context & assign to 'ctx'
+const ctx2 = secondCanvas.getContext('2d');
+```
+I wanted to apply this example on top of the artwork I created by referring to the c2.js example, so I created two separate canvases, and placed the second canvas on top of the first canvas to create a layer effect.
+
+<p align="center">
+  <img alt="created 404 icon" src="/240504_Assignment2/create.png" width="45%">
+&nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="generate image to ascii" src="/240504_Assignment2/ascii.png "background2" width="45%">
+</p>
 
