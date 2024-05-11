@@ -517,9 +517,11 @@ I wanted to apply this example on top of the artwork I created by referring to t
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="generate image to ascii" src="/240504_Assignment2/ascii.png "background2" width="45%">
 </p>
+
 In the existing code, a square appeared when you clicked the mouse, but to add to the aesthetic of zany and chaotic, I decided to display a '404' icon, which represents an error different from a 'glitch' in a digital environment. Additionally, to reflect the idea of creating confusion through text in fractal artwork, I tried ASCII art by converting the image to ASCII characters via [this link](https://asciiart.club/).
 
 ![ASCII code](/2240504_Assignment2/asciicode.png)
+
 The icon converted to ASCII characters looks like this.
 
 ```js
