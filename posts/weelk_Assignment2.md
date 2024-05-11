@@ -623,6 +623,41 @@ function draw_frame() {
 Then, using the code referenced in the example, when you click the mouse, a 404 icon converted to ASCII art appears and moves confusingly depending on the mouse movement.
 
 # Final code
+index.html
+```html
+<!doctype html>
+<head>
+    <title> Assignment2 </title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; 
+        }
+        
+        canvas {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    #secondCanvas {
+        z-index: 2;
+    }
+    </style>
+    <script src="vector.js"></script>
+</head>
+
+<body>
+   <canvas id="firstCanvas"></canvas>
+   <canvas id="secondCanvas"></canvas>
+   <script src="c2.min.js"></script>
+   <script src="script.js"></script>
+</body>
+```
+script.js
 ```js
     // First canvas code
 document.body.style.margin = 0;
