@@ -18,9 +18,12 @@ disable_html_sanitization: true
   <img alt="Kerry Mitchell" src="/240504_Assignment2/NATO.png "background2" width="45%">
 </p>
 
-<div>
+<p>
 
 [untitled by Mathieu St-Pierre](https://matstpierre.wordpress.com/2017/08/13/untitled-2/)
-</div>
+</p>
+
+<aside>
 
 [NATO by Kerry Mitchell](https://www.kerrymitchellart.com/gallery36/nato.html)
+</aside>
