@@ -177,7 +177,7 @@ When I modified the code in this way and ran the code, it looked just like "Etch
 
 <img alt="Etch A Sketch" src="/240603_HW/Etch_A_Sketch.jpeg" width="100%">
 
-Source of [image](https://www.spinmaster.com/en-US/brands/etch-a-sketch/)
+_Source of [image](https://www.spinmaster.com/en-US/brands/etch-a-sketch/)_
 
 The biggest design feature of Etch A Sketch is its flat gray screen with a red plastic frame. There are also two white handles on the bottom front corners of the frame. To express this, a shape was created.
 
