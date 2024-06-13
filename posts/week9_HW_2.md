@@ -1,7 +1,7 @@
 ---
 title: Brainstorm ideas for your AT3 project
 published_at: 2024-05-10
-snippet: week9 homework
+snippet: Second homework for week9
 disable_html_sanitization: true
 ---
 

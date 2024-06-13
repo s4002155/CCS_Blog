@@ -1,7 +1,7 @@
 ---
 title: Consider "I heard TALKING IS DANGEROUS", by Lauren Lee McCarthy
 published_at: 2024-05-09
-snippet: week9 homework
+snippet: First homework for week9
 disable_html_sanitization: true
 ---
 
