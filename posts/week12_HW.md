@@ -176,6 +176,7 @@ function keyReleased() {
 When I modified the code in this way and ran the code, it looked just like "Etch A Sketch". Etch A Sketch is a drawing toy that allows you to create linear images with controls that allow you to move horizontally and vertically, and then use them to draw images. I felt that it was similar in that it was a  linear image, that it could be moved horizontally and vertically through the keyboard, and above all, that it could be drawn, so I decided to use Etch A Sketch as my design concept.
 
 <img alt="Etch A Sketch" src="/240603_HW/Etch_A_Sketch.jpeg" width="100%">
+
 Source of [image](https://www.spinmaster.com/en-US/brands/etch-a-sketch/)
 
 
