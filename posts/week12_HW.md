@@ -566,7 +566,7 @@ And finally, I have implemented the ability to draw pictures at the same time on
 # Final code
 <iframe src="https://editor.p5js.org/s4002155/full/IrBmPhp3y" width="100%" height="810px"></iframe>
 
-_It can run through the **http://localhost:3000** link, but there is a problem that you have to have the file on the computer to run it and run it through the terminal. The real-time drawing feature doesn't work, but I'll attach the p5.js file on the blog so you can experience the code._
+_It can run through the **http://localhost:3000** link, but there is a problem that you have to have the file on the computer to run it and run it through the terminal. The real-time drawing feature doesn't work, but I'll embed the p5.js on the blog so you can experience the code._
 
 ### index.html
 ```html
@@ -857,6 +857,16 @@ function keyReleased() {
   direction = '';
 }
 ```
+
+## Then... How to get real-time drawing to work?
+To operate all functions, you must download the file and operate it through a terminal. Of course, you also need to install node.js (and Socket.io). The Github link to download the code file is [here](https://github.com/s4002155/Etch_a_sketch). The remaining steps are as follows:
+
+1. Download all files required to run the code (Github files, node.js etc.)
+2. If you are a Mac OS user, run Terminal
+3. Enter “cd /Github file storage path” and press Enter (If you drag and drop a Github file, the file storage path will be created automatically :) 
+4. Enter “node server.js” and press Enter.
+5. If “My socket server is running” appears in the terminal, it is successful!
+6. Visit http://localhost:3000 and draw a picture.
 
 # Video
 

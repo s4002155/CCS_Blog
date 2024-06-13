@@ -8,7 +8,7 @@ disable_html_sanitization: true
 # Brainstorm ideas regarding what community of practice you might engage with for your AT3 project.
 
 ### Its domain
-The community I belong to is “People who like to draw.” Passionate about art and interested in creative expression.
+The community I belong to is “People who like to draw.” It's a small group with 2-3 people including me. Passionate about art and interested in creative expression.
 
 We have a problem with running out of ideas to draw new pictures every time, and drawing pictures with repetitive drawing methods has become a bit boring. To solve this, we hope to inspire us in interesting ways and experience drawing like never before.
 
