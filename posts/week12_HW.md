@@ -868,5 +868,7 @@ To operate all functions, you must download the file and operate it through a te
 5. If “My socket server is running” appears in the terminal, it is successful!
 6. Visit http://localhost:3000 and draw a picture.
 
-# Video
++ You can see Live Drawing in action in the video.
 
+# Video
+[Here](https://youtu.be/ObJrj6tcCAE)  you can see a video of how I created this webpage and my thoughts.
